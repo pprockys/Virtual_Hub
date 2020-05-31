@@ -12,6 +12,13 @@ document.getElementById("butt").addEventListener("click",opencontest);
 
 function opencontest()
 {
-   let fulllink=prelink+v;
-   window.open(fulllink);
+   if(v>=1 && v<=1359)
+   {
+    let fulllink=prelink+v;
+    window.open(fulllink);
+   }
+   else
+   {
+      document.getElementById("para").innerHTML="Sorry! we can not bring this page to you.";
+   }
 }
