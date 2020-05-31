@@ -1,0 +1,9 @@
+{
+    "manifest_version":"2",
+    "name":"Virtual-Hub",
+    "version":1.0,
+    "description":"This is a simple Chrome extension for accesing Codeforces Virtual contest easily",
+    "icon":{
+        
+    }
+}
