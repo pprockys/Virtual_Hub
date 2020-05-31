@@ -1,13 +1,39 @@
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button 
-{
-  -webkit-appearance: none;
-  margin: 0;
-}
-/* design{
 
-}  */
+
+
+body{
+  width: 500px;
+  height: 400px;
+  margin: 0px;
+  padding-top: 0px;
+  border: 3px solid #f77700;
+  border-top: 0px;
+  background-color: blanchedalmond;
+}
+
+h2{
+  background-color:#f77700;
+  border: 5px solid #f77700;
+  margin-top: 0px;
+  color:black;
+  text-align: center;
+  letter-spacing: 0.11cm;
+}
+#para{
+  letter-spacing: 0.09cm;
+  color: black;
+  margin-top: 2px;
+  text-align: center;
+  font-size: 26px;
+}
+#ini{
+  text-align: center;
+}
+#customcontestnumber{
+  width: 100px;
+  height: 50px;
+}
 #butt{
   width: 130px;
   height: 50px;
@@ -15,6 +41,6 @@ input::-webkit-inner-spin-button
   margin-right: 20px;
   margin-top: 20px;
   font-size: 18px;
-  background-color: #1d6345;
+  background-color: #f77700;
   color: #f7f9fa;
 }
