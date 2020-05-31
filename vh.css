@@ -8,3 +8,13 @@ input::-webkit-inner-spin-button
 /* design{
 
 }  */
+#butt{
+  width: 130px;
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #1d6345;
+  color: #f7f9fa;
+}

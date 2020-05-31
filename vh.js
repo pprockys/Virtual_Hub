@@ -1,4 +1,5 @@
-let prelink="https://codeforces.com/contest/";
+let prelink="https://codeforces.com/contestRegistration/";
+let postlink="/virtual/true";
 let v1;
 function storecontestnumber()
 {
@@ -12,7 +13,7 @@ function openvirtualpage()
     }
     else
     {
-        let completelink=prelink + v1;
+        let completelink=prelink + v1 + postlink;
         window.open(completelink);
     }
 }
