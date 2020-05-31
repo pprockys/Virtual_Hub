@@ -17,6 +17,10 @@ function opencontest()
     let fulllink=prelink+v;
     window.open(fulllink);
    }
+   else if(v==null)
+   {
+      document.getElementById("para").innerHTML="Sorry! we can not bring this page to you.";
+   }
    else
    {
       document.getElementById("para").innerHTML="Sorry! we can not bring this page to you.";
