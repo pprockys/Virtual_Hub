@@ -1,19 +1,17 @@
-let prelink="https://codeforces.com/contestRegistration/";
-let postlink="/virtual/true";
-let v1;
-function storecontestnumber()
+let v;
+
+let prelink="https://codeforces.com/contest/";
+document.addEventListener("keyup",contestno);
+
+function contestno()
 {
-    v1=document.getElementById("customcontestnumber").value;
+    v=document.getElementById("customcontestnumber").value;
 }
-function openvirtualpage()
+
+document.getElementById("butt").addEventListener("click",opencontest);
+
+function opencontest()
 {
-    if(v1<1 || v1>1359)
-    {
-        alert("Sorry! I can not bring that page for you.");
-    }
-    else
-    {
-        let completelink=prelink + v1 + postlink;
-        window.open(completelink);
-    }
+   let fulllink=prelink+v;
+   window.open(fulllink);
 }
