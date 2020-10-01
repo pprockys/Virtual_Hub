@@ -12,7 +12,7 @@ document.getElementById("butt").addEventListener("click",opencontest);
 
 function opencontest()
 {
-   if(v>=1 && v<=1359)
+   if(v>=1 && v<=1426)
    {
     let fulllink=prelink+v;
     window.open(fulllink);
