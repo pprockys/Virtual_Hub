@@ -19,12 +19,12 @@ function opencontest()
    }
    else if(v==null)
    {
-      document.getElementById("para").innerHTML="Sorry! we can not bring this page to you.";
+      document.getElementById("para").innerHTML="Sorry! this contest doesn't exist.";
       document.getElementById("parag").innerHTML="";
    }
    else
    {
-      document.getElementById("para").innerHTML="Sorry! we can not bring this page to you.";
+      document.getElementById("para").innerHTML="Sorry! this contest doesn't exist.";
       document.getElementById("parag").innerHTML="";
    }
 }
